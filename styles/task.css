@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;800&display=swap');
 
-
+body{
+    font-family: Mulish;
+}
 .body {
     max-width: 1198px;
     margin: 0 auto;
@@ -39,6 +41,7 @@
 .items-container a {
     text-decoration: none;
     color: var(--Dark-02, #424247);
+    border: none;
 
 }
 
@@ -74,15 +77,25 @@
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     gap: 20px;
+    width: 800px;
+    margin: 0 auto;
+    height: 80px;
+}
+.btn-items >input{
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 15px;
 }
 
 .btn {
     font-size: 20px;
-    height: 55px;
+    height: 50px;
     width: 174px;
     border: none;
     color: #fff;
     border-radius: 8px;
+    margin-top: 15px;
     background: #FF5400;
 }
 
@@ -140,10 +153,94 @@
 
 .travel-container p {
     color: rgba(19, 19, 24, 0.70);
+    padding-bottom: 40px;
 }
 
 .row {
     display: flex;
     gap: 25px;
     padding-bottom: 20px;
+}
+/* middile container */
+.middile-container{
+    
+    
+
+}
+.middile{
+    text-align: center;
+    justify-content: center;
+}
+.middile h2{
+    color: #131318;
+    font-size: 40px;
+}
+.middile p{
+    color: #424247;
+    width: 900px;
+    margin-left: 150px;
+}
+.icons{
+    display: flex;
+    margin-top: 40px;
+}
+.icon-container{
+    width: 80%;
+    padding: 20px;
+    /* margin-left: 50px; */
+    
+}
+.icon-container-2{
+    width: 80%;
+    padding: 20px;
+    margin-left: 50px;
+}
+.icon-container-3{
+    
+    
+}
+@media screen and (max-width:576px) {
+    .parent-div{
+        flex-direction: column;
+    }
+    .container div{
+        width: 100%;
+        gap: 0;
+        padding: 0;
+    }
+    .container p {
+        /* text-align: center;
+        width: 600px;
+        font-weight: 400; */
+        padding: 0;
+        margin: 0;
+    }
+    .child-div{
+        flex-direction: column;
+        width: 50%
+    }
+    .child-div img{
+        width: 50%
+    }
+    .items-container, .btn-items{
+        flex-direction: column;
+    }
+    .second-position div{
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .image-section{
+        flex-direction: column;
+
+    }
+    .row{
+        flex-direction: column;
+        width: 100%;
+        gap: 5px;
+        padding: 0;
+    }
+
+    
+
 }
