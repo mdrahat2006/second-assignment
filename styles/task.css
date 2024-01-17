@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;800&display=swap');
 
-body{
+body {
     font-family: Mulish;
 }
+
 .body {
     max-width: 1198px;
     margin: 0 auto;
@@ -81,7 +82,8 @@ body{
     margin: 0 auto;
     height: 80px;
 }
-.btn-items >input{
+
+.btn-items>input {
     height: 50px;
     border-radius: 8px;
     border: none;
@@ -161,53 +163,124 @@ body{
     gap: 25px;
     padding-bottom: 20px;
 }
-/* middile container */
-.middile-container{
-    
-    
 
-}
-.middile{
+/* middile container */
+.middile-container {}
+
+.middile {
     text-align: center;
     justify-content: center;
 }
-.middile h2{
+
+.middile h2 {
     color: #131318;
     font-size: 40px;
 }
-.middile p{
+
+.middile p {
     color: #424247;
     width: 900px;
     margin-left: 150px;
 }
-.icons{
+
+.icons {
     display: flex;
     margin-top: 40px;
 }
-.icon-container{
+
+.icon-container {
     width: 80%;
     padding: 20px;
     /* margin-left: 50px; */
-    
+
 }
-.icon-container-2{
+
+.icon-container-2 {
     width: 80%;
     padding: 20px;
     margin-left: 50px;
 }
-.icon-container-3{
-    
-    
+
+.icon-container-3 {
+    padding: 20px;
+    width: 600px;
+    margin-left: 250px;
 }
+
+.fa-solid {
+    height: 50px;
+}
+
+.news-letter {
+    /* margin: 30px; */
+    width: 475px;
+    height: 420px;
+    border: 2px solid tomato;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.news-letter div {
+    display: grid;
+    grid-template-columns: calc(1, 1fr);
+    width: 200px;
+    /* padding-top: 20px; */
+    /* margin-bottom: 25px; */
+    margin-top: 40px;
+}
+
+.news-letter div input {
+    width: 350px;
+    height: 40px;
+    border: none;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 20px;
+
+}
+
+.news-letter button {
+    border: none;
+    height: 40px;
+    border-radius: 8px;
+    background: #FF5400;
+    margin-top: 40px;
+}
+
+.last-section {
+    display: flex;
+    margin-top: 100px;
+    gap: 30px;
+}
+.image-container{
+    position: relative;
+}
+
+.discount {
+    width: 324px;
+    height: 120px;
+    background-color: #FF5400;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    transform: rotate(-19.628deg);
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+}
+
+
 @media screen and (max-width:576px) {
-    .parent-div{
+    .parent-div {
         flex-direction: column;
     }
-    .container div{
+
+    .container div {
         width: 100%;
         gap: 0;
         padding: 0;
     }
+
     .container p {
         /* text-align: center;
         width: 600px;
@@ -215,32 +288,39 @@ body{
         padding: 0;
         margin: 0;
     }
-    .child-div{
+
+    .child-div {
         flex-direction: column;
         width: 50%
     }
-    .child-div img{
+
+    .child-div img {
         width: 50%
     }
-    .items-container, .btn-items{
+
+    .items-container,
+    .btn-items {
         flex-direction: column;
     }
-    .second-position div{
+
+    .second-position div {
         flex-direction: column;
         width: 100%;
-        
+
     }
-    .image-section{
+
+    .image-section {
         flex-direction: column;
 
     }
-    .row{
+
+    .row {
         flex-direction: column;
         width: 100%;
         gap: 5px;
         padding: 0;
     }
 
-    
+
 
 }
