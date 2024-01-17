@@ -99,6 +99,7 @@ body {
     border-radius: 8px;
     margin-top: 15px;
     background: #FF5400;
+    padding-top: 15px;
 }
 
 /* second-section */
@@ -168,6 +169,7 @@ body {
 .middile-container {}
 
 .middile {
+   
     text-align: center;
     justify-content: center;
 }
@@ -268,7 +270,31 @@ body {
     bottom: 20%;
     left: 50%;
 }
-
+.footer{
+    text-align: center;
+    margin-top: 100px;
+}
+footer h2 span{
+    color: #FF5400;
+}
+.footer-container p{
+    width: 900px;
+    margin-left: 100px;
+}
+.footer-container div{
+    margin-top: 50px;
+}
+/* .footer-container div span{
+    gap: 30px;
+} */
+.fa-brands{
+    gap: 30px;
+}
+.finish{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
 @media screen and (max-width:576px) {
     .parent-div {
@@ -319,6 +345,12 @@ body {
         width: 100%;
         gap: 5px;
         padding: 0;
+    }
+    .icons{
+        flex-direction: column;
+    }
+    .last-section{
+        flex-direction: column;
     }
 
 
